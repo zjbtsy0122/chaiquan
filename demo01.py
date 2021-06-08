@@ -1,6 +1,11 @@
-a = input("请输入：")
-b = input("请输入：")
+# a = input("请输入：")
+# b = input("请输入：")
 
-print(len(a+b))
+# print(len(a+b))
 
-#haha
+#hahaa
+
+#元祖
+a = (1,2,3,4,"哈哈","嘻嘻",True,False)
+
+print(a[4])
