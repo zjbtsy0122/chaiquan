@@ -1,0 +1,13 @@
+#创建全局用户
+git config --global user.name "ZhuJianbo"
+#创建邮箱
+git config --global user.email "zjbzjb0122@163.com"
+#创建锁
+ssh-keygen -t rsa -C "zjbzjb0122@163.com"
+#github
+setting里的SSH
+new SSH key
+#关联
+ssh -T git@github.com
+#github
+your profile
