@@ -21,4 +21,20 @@ print(a[0:4])
 
 # 元祖一定写好过后不可以修改，而数组是可以修改的
 
-a.b
+c = [1,2,3,4,"哈哈","嘻嘻",True,False]
+
+c.append("奥特曼")
+print(c)
+
+c.insert(0,"赛罗")
+print(c)
+
+#剪切
+c.pop(5)
+print(c)
+
+#clear()清空
+#extend()
+
+
+
