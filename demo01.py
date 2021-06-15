@@ -41,4 +41,16 @@ print(c)
 元祖、数组、字典的取值，都是用中括号，比如 a[0]
 元祖、数组、字典的定义，分别是()、[]、{}
 """
+d = {"name":"张三",0:"哈哈","age":25}
 
+#新增
+d["high"] = "183cm"
+print(d)
+#修改
+d["name"] = "李四"
+print(d)
+#get()取value值
+
+#update 修改
+d.update(name="王五")
+print(d)
