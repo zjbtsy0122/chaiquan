@@ -6,6 +6,8 @@
 #hahaa
 
 #元祖，下标，从0开始编号
+
+
 a = (1,2,3,4,"哈哈","嘻嘻",True,False)
 
 # print(a[4])
@@ -54,3 +56,22 @@ print(d)
 #update 修改
 d.update(name="王五")
 print(d)
+
+
+'''
+练习
+获取用户输入的个人信息，并且存储在字典中
+个人信息包括了，name，age,sex
+'''
+
+
+aa = input("请输入姓名:")
+bb = input("请输入年龄:")
+cc = input("请输入性别:")
+
+p = {"name":"haha","age":25,"sex":""}
+
+p.update(name=aa)
+p.update(age=bb)
+p.update(sex=cc)
+print(p)
