@@ -32,17 +32,21 @@
 
 #     a = a + 1
 
-highchengji = {}
-lowchengji = {}
+# highchengji = {}
+# lowchengji = {}
 
-student = ["张三","李四","赵四","王五","溜溜","lily","haha","zhuzhu","xiaoyun","hihi"]
-a = 0 
-while a < len(student):
-    chengji = int(input("请输入"+student[a]+"的成绩："))
-    if chengji >= 60 :
-        highchengji[student[a]] = chengji
-    else :
-        lowchengji[student[a]] = chengji 
-    a = a + 1
+# student = ["张三","李四","赵四","王五","溜溜","lily","haha","zhuzhu","xiaoyun","hihi"]
+# a = 0 
+# while a < len(student):
+#     chengji = int(input("请输入"+student[a]+"的成绩："))
+#     if chengji >= 60 :
+#         highchengji[student[a]] = chengji
+#     else :
+#         lowchengji[student[a]] = chengji 
+#     a = a + 1
 
-print(highchengji,lowchengji)
+# print("大于60的成绩：",highchengji)
+# print("小于60的成绩：",lowchengji)
+
+# 遍历
+
