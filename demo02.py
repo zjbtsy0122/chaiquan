@@ -57,12 +57,17 @@
 #99乘法表
 
 
-for i in range(1,10):
-    for j in range(1,i+1):
-        print(i,"x",j,"=",i*j,end="  ")
-    print()
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print(i,"x",j,"=",i*j,end="  ")
+#     print()
 
-
+# 练习1：
+# 通过print打印，模拟一个红绿灯的功能，注意：红灯30次，绿灯35次，黄灯3次。
+# 练习2：
+# 使用代码，实现一个注册的功能。
+# 用户输入账号和密码，要求账号长度是5-8位，密码6-12位，并且账号必须小写开头。
+# 储到字典中，{username:password}
 
 
 
